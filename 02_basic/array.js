@@ -20,7 +20,7 @@ console.log(myArr)   // [9, 0, 1, 2, 3, 4, 5,]
 console.log(myArr.includes(9))
 console.log(myArr.indexOf(3))
 
-const newArr = myArr.join()
+const newArr = myArr.join()  // return as string and join each element with parameter u give or , as default
 
 console.log(myArr)  //[9, 0, 1, 2, 3, 4, 5,]
 console.log(newArr) //9,0,1,2,3,4,5
